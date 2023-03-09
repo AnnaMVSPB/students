@@ -1,0 +1,21 @@
+.title{
+    color:chocolate;
+    font-size: 110px;
+}
+.button{
+    background-color: #fff;
+    border:  2px solid black;
+    font-size: 60px;
+    color: black;
+}
+.banner{
+    width: 800px;
+}
+.bannerDiv{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( violet, blue)
+}
+.name{
+    color: wheat;
+}
