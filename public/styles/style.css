@@ -1,0 +1,62 @@
+.title{
+    color:chocolate;
+    font-size: 110px;
+}
+.button{
+    background-color: #32d4f0;
+    border:  2px solid black;
+    font-size: 60px;
+    color: black;
+}
+.banner{
+    width: 800px;
+}
+.bannerDiv{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( violet, blue)
+}
+.name{
+    color: wheat;
+}
+.img{
+    width: 250px;
+    height: 250px;
+}
+.cardStudent{
+    margin: 20px;
+    border: 2px solid gold;
+    display: flex;
+}
+.star{
+    font-size: 200px;
+}
+.like{
+    font-size: 50px;
+}
+.i{
+    font-size: 50px;
+}
+.starDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.divLikes{
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+.dinIcons{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    max-width: 300px;
+    border: 5px solid violet !important;
+    margin: 10px;
+    background: url('https://img.freepik.com/free-vector/watercolor-stains-abstract-background_23-2149107181.jpg?w=2000') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
