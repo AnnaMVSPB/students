@@ -4,8 +4,9 @@ const Layout = require('./Layout')
  const Reg = ({title}) => {
   return (
     <Layout title={title}>
-    <div>
-    <form action='/auth/reg' method='POST' id='formReg'>
+    <div className='divForm'>
+      <h1>ЗАРЕГИСТРИРУЙСЯ</h1>
+    <form action='/auth/reg' method='POST' id='formReg' className='form'>
   <div className="mb-3">
     <label htmlFor="name" className="form-label">Имя </label>
     <input type="text" className="form-control" id="name" aria-describedby="emailHelp" name='name'/>
@@ -22,7 +23,7 @@ const Layout = require('./Layout')
     <label htmlFor="password2" className="form-label">повтори Пароль</label>
     <input type="password" className="form-control" id="password2" name='password2'/>
   </div>
-  <button type="submit" className="btn btn-primary">СОХРАНИ</button>
+  <button type="submit" className="btn btn-primary but">СОХРАНИ</button>
 </form>
 <h2 className='errorReg'></h2>
     </div>

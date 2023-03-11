@@ -8,7 +8,7 @@ const StudentParams = ({student,title,user,star}) => {
     <div className='cardStudent'>
     <div className="divInfa">
     <img src={student.img} className="img" alt="..."/>
-      <h5 className="card-title">{student.name}</h5>
+      <h1 className="card-title">{student.name}</h1>
     </div>
     <div className='starDiv'>
       {user.id === 1 && 
@@ -16,8 +16,8 @@ const StudentParams = ({student,title,user,star}) => {
       <i className="bi bi-dash-square-dotted star" data-id={student.id}></i>
       <i className="bi bi-plus-square-dotted star" data-id={student.id}></i>
       </>}
-    <p className='star quantityStar'>{star[0].count}</p>
-      {star[0].count
+    <p className='star quantityStar'>{star.length && star[0].count}</p>
+      {star.length
       ?
     <i className="bi bi-star-fill star i-star" ></i>
        :

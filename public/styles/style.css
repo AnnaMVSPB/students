@@ -1,3 +1,4 @@
+
 .title{
     color:chocolate;
     font-size: 110px;
@@ -24,10 +25,15 @@
     height: 250px;
 }
 .cardStudent{
-    margin: 20px;
-    border: 2px solid gold;
+    width: 100vw;
+    height: 100vh;
     display: flex;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/007/994/607/small/rainbow-coloured-hand-painted-watercolour-background-free-vector.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
+
 .star{
     font-size: 200px;
 }
@@ -38,7 +44,7 @@
     font-size: 50px;
 }
 .starDiv{
-    width: 100%;
+    width: 80vw;
     display: flex;
     justify-content: center;
 }
@@ -59,4 +65,89 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+.navDiv{
+    width: 100vw !important;
+    height: 60px;
+}
+.navUl{
+    display: flex;
+}
+li{
+    list-style-type:none !important;
+}
+a{
+    color: violet ;
+    font-size: 30px;
+}
+.form{
+    width: 700px;
+}
+label{
+font-size: 50px;
+}
+.but{
+    width: 200px;
+    height: 80px;
+}
+.divForm{
+    width: 100vw;
+    height: 100vh;
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/4d845686128681.5d909dad4ddd3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: aqua;
+}
+.divMain{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgMain{
+   width:900px;
+}
+@media (max-width: 750px) {
+    .imgMain{width: 500px;}
+}
+
+@media (max-width: 500px) {
+.img{
+        width: 200px;
+        height: 200px;
+    }
+.cardStudent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.star{
+    font-size: 80px;
+}
+}
+@media ( max-width: 1010px) {
+    .img{
+        width: 300px;
+        height: 300px;
+    }
+.cardStudent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.star{
+    font-size: 100px;
+}
 }
